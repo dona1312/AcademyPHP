@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - academy_db@localhost" uuid="c0772d62-1482-4b9c-90e0-3285360bb34e">
+      <secret-storage>memory</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>academy_db.*</schema-pattern>
+      <default-schemas>academy_db.*</default-schemas>
+    </data-source>
+  </component>
+</project>

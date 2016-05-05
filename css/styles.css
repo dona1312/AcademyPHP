@@ -1,0 +1,161 @@
+body,header,ul,li,section,div,p,h1,aside{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image: url("../img/bg.jpg");
+	background-repeat: no-repeat;
+}
+header{
+	background-color: black;
+	margin-bottom: 0.7%;
+}
+#logo{
+	float: left;
+	height: 60px;
+	padding: 6px 0;
+}
+.main-menu{
+	float: right;
+	list-style: none;
+	
+}
+	li{
+		float: left;
+		padding: 5px 24px ;
+		margin: 15px 0px;
+	}
+	.main-menu li a {
+			color: white;
+			text-decoration: none;
+			font-size: 18px;
+	}
+.wrapper{
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+}
+.wrapper:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+
+/*    Main          */
+section{
+	width: 70%;
+	float: left;
+}
+.main-content{
+	border-bottom: 3px solid #fff;
+	margin-bottom: 50px;
+}
+	.main-content h1{
+		border-bottom:2px solid #fff;
+		padding: 10px 0;
+		margin-top: 5px;
+	}
+	.main-content p{
+		float: left;
+		width: 500px;
+		padding: 10px 0;
+	}
+.main-content .content-logo{
+	float: right;
+	width: 150px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+.main-content:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.input-group{
+	margin: 0 auto;
+}
+.button{
+	margin:3.7%;
+}
+
+/*card style*/
+.card{
+	width:20%;
+	display: inline-block;
+	background-color: #FFF6EF;
+	border-radius: 10px;
+}
+	.card-title{
+		margin: 2% 0 0 2% ;
+		width: 90%;
+
+	}
+	.card-body{
+		margin: 2% 0 0 2%;
+		padding:1%;
+		width: 95%;
+		background-color: #A5DCFF;
+
+		border-radius: 10px;
+	}
+#area{
+	margin: 0px;
+	height: 222px;
+	width: 906px;
+}
+#form-div{
+	width: 30%;
+	margin: 0 auto;
+	border:2px solid #C98DCE;
+	background-color: #fff;
+}
+	#form-div h1{
+		background-color: #C98DCE;
+	}
+	#form-div .sidebar-menu{
+
+	}
+	#form-div .sidebar-menu li{
+		list-style: none;
+		background-color: white;
+		border-bottom: 1px solid #C98DCE;
+		width: 172px;
+		padding:10px;
+		margin: 0px;
+	}
+	#form-div .sidebar-menu li a{
+		text-decoration: none;
+	}
+#form-div:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+/* Footer */
+footer{
+	background-color: #000;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+footer:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+	footer .info{
+		float: left;
+		color: #fff;
+	}
+	footer .socials img{
+		float: right;
+		width: 60px;
+		height: 60px;
+		padding: 20px;
+		transition:0.5s ease all;
+	}
+	.socials img:hover{
+		box-shadow:5px 5px 5px #fff;
+	}
